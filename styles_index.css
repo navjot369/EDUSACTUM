@@ -55,6 +55,13 @@ body {
     font-style: italic;
     display: block;
 }
+.footer-card .footer-com-name {
+    word-wrap: break-word;
+    font-family: 'Croissant One', cursive;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+}
 .get-app {
     font-weight: bold;
     color: #eee;
@@ -72,6 +79,9 @@ body {
     text-decoration: none;
     display: block;
     padding: 5px 0;
+}
+.footer-container div a:hover {
+    color: #FFC05F;
 }
 .header-bottom {
     position: -webkit-sticky;
@@ -271,6 +281,104 @@ body {
     background-color: #3196E2;
 }
 
+.query-end {
+    width: 70%;
+    margin: 30px auto;
+
+}
+.question-query {
+    font-weight: bold;
+}
+.query-end a{
+    color: #FF826C;
+    padding: 2px;
+}
+
+#infographics2-container {
+    margin: 20px 0;
+    background-color: #FFC05F;
+}
+.why-us {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+#infographics2 {
+    display: flex;
+    overflow-x: scroll;
+    margin: 40px 0;
+
+}
+
+
+.info2-entry {
+    margin: 20px 50px;
+}
+.info2-entry img {
+    width: 300px;
+    height: 100px;
+}
+.info2-entry p {
+    text-align: center;
+    font-weight: bold;
+}
+#user-panel {
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.us-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid blue;
+    border-radius: 12px;
+    max-width: 300px;
+}
+.us-panel img{
+   height: 280px;
+   width: 250px; 
+   margin: 12px;
+}
+.us-panel span{
+    background-color: blue;
+    width: 100%;
+    line-height: 50px;
+    vertical-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.us-panel:hover {
+    transform: translate(0, -5px);
+    transition: 0.5s;
+    box-shadow: 6px 6px 4px grey;
+}
+.us-panel:hover span{
+    color: grey;
+}
+#notification-panel {
+    border: 3px solid #53D2DC;
+    border-radius: 15px;
+    margin: 40px 80px;
+}
+.noti-heading {
+    width: 20%;
+    margin: auto;
+    background-color: #53D2DC;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    padding: 2px;
+    font-weight: bold;
+}
+.noti-body span {
+    display: block;
+    margin:70px auto;
+    text-align: center;
+}
 
 @media (max-width: 500px) {
     .navbar ul {
@@ -290,7 +398,29 @@ body {
         margin-top: 4px;
     }
 } 
-
+.about-us {
+    margin: 20px 0;
+    padding: 10px 40px;
+    background-image: url("images/wallpaper1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.about-head {
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    border-bottom: 4px solid #6f8c9a;
+}
+.about-body {
+    font-size: 20px;
+    padding: 10px 50px;
+    line-height: 40px;
+    text-align: center;
+    background-color: rgba(240,248,255,0.7);
+    margin-bottom: 30px;
+}
 @media (max-width: 900px) {
     #comp-desc {
         margin: 0;
